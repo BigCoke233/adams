@@ -1,6 +1,11 @@
 语言：简体中文 | [English](README-en.md)
 # Adams
 > 世界最初的景色
+
+<p align="center">
+  <img src="screenshot.png">
+</p>
+
 ## 介绍
 这是移植自 WordPress 的一款主题，原作者 [Tokinx](https://github.com/Tokinx/Adams)  
 个人很喜欢这种简洁而不失优雅的主题，功能也比较齐，于是就选择了移植。
