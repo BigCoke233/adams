@@ -1,5 +1,4 @@
 <?php
-require_once("libs/Content.php");
 
 /* 初始化 */
 /**
