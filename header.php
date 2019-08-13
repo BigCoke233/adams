@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300|Noto+Serif+SC:300&display=swap" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script type='text/javascript' src="<?php $this->options->themeUrl('static/script.js'); ?>"></script>
+	<script type='text/javascript' src="<?php $this->options->themeUrl('static/support.js'); ?>"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js" integrity="sha256-9I2FxupwHkF6hXzZKS3hLCwP95XFukX3EnxRzGqXzz0=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/instantclick/3.1.0/instantclick.min.js" integrity="sha256-T8RTGotskdhLXy/3avHtzYliRm9WCbiiqm5dbCVH87s=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
