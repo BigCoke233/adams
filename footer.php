@@ -11,7 +11,7 @@
 </footer>
 
 <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script> 
-
+<?php $this->footer(); ?>
 <div class="setting_tool iconfont">
     <a class="back2top" style="display:none;"><i class="czs-arrow-up-l"></i></a>
     <a class="sosearch"><i class="czs-search-l"></i></a>
