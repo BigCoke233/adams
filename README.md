@@ -37,7 +37,7 @@
 - [Google Fonts](https://fonts.google.com)
 
 ## 演示
-原 WP 版：https://biji.io
+原 WP 版：https://biji.io  
 现 TE 版：https://blog.qyaiy.com （使用者 七越 的博客）
 
 ## 版权
