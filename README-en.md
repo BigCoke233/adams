@@ -31,7 +31,7 @@ The changes relative to the raw version.
 - [Google Fonts](https://fonts.google.com)
 
 # Copyright
-Because the raw 'repo' doesn't have a License file in it, so I get in touch with the author and he agreed.
+Because the raw repository doesn't have a License file in it, so I get in touch with the author and he agreed.
 ![](copyright-en.png)
 
 # License
