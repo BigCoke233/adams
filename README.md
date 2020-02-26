@@ -38,11 +38,10 @@
 
 ## 演示
 原 WP 版：https://biji.io  
-现 TE 版：https://blog.qyaiy.com （使用者 七越 的博客）
 
 ## 版权
 鉴于原项目没有 License，所以移植已经经过作者亲自授权。
 ![](copyright.png)
 
 ## 许可
-&copy; Under MIT License
+Copyright &copy; 2019-2020 Eltrac & Tokinx, Under MIT License
