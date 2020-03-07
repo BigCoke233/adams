@@ -55,10 +55,7 @@ echo $commentClass;
 			
 			<div id="respond" class="comment-respond">
 			    <?php if($this->allow('comment')): ?>
-				<span class="cancel-comment-reply">
-                    <?php $comments->cancelReply(); ?>
-                </span>
-		        <h3 id="reply-title" class="comment-reply-title">发表评论</h3>
+		        <h3 id="reply-title" class="comment-reply-title">发表评论<small><?php $comments->cancelReply(); ?></small></h3>
                 <form method="post" action="<?php $this->commentUrl() ?>" id="commentform" role="form">
 				    <!-- 如果当前用户已经登录 -->
                     <?php if($this->user->hasLogin()): ?>
