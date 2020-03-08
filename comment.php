@@ -28,7 +28,7 @@ echo $commentClass;
 		<cite class="fn"><?php $comments->author(); ?></cite><span class="says">说道：</span>		
 	</div>
     <div class="comment-meta commentmetadata">
-		<a href="https://biji.io/2017/4905.html/comment-page-31#comment-15991"><?php $comments->date('Y-m-d H:i'); ?></a>
+		<a href="<?php $comments->permalink(); ?>"><?php $comments->date('Y-m-d H:i'); ?></a>
 	</div>
 	<p><?php $comments->content(); ?></p>
 
