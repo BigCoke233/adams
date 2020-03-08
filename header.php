@@ -46,14 +46,30 @@
         </hgroup>
 		<nav class="social">
 		  <ul id="menu-socialx" class="menu">
-		    <li id="menu-item-4831" class="czs-rss menu-item menu-item-type-custom menu-item-object-custom"><a title="RSS" target="_blank" href="<?php $this->options->feedUrl(); ?>">RSS</a></li>
-            <li id="menu-item-4832" class="czs-github-logo menu-item menu-item-type-custom menu-item-object-custom"><a title="GitHub" target="_blank" href="<?php $this->options->github(); ?>">GitHub</a></li>
-            <li id="menu-item-4834" class="czs-weibo menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="<?php $this->options->weibo(); ?>">WeiBo</a></li>
+		    		    <li class="czs-rss menu-item menu-item-type-custom menu-item-object-custom">
+				<a title="RSS" target="_blank" href="<?php $this->options->feedUrl(); ?>">RSS</a>
+			</li>
+			<?php if ($this->options->github): ?>
+            <li class="czs-github-logo menu-item menu-item-type-custom menu-item-object-custom">
+				<a title="GitHub" target="_blank" href="<?php $this->options->github(); ?>">GitHub</a>
+			</li>
+			<?php endif;?>
+			<?php if ($this->options->weibo): ?>
+            <li class="czs-weibo menu-item menu-item-type-custom menu-item-object-custom">
+				<a target="_blank" href="<?php $this->options->weibo(); ?>">WeiBo</a>
+			</li>
+			<?php endif;?>
           </ul>
 		</nav>
         <nav class="header_nav">
 		  <ul id="menu-header" class="menu">
-		    <li id="menu-item-4759" class="menu-item menu-item-type-custom menu-item-object-custom <?php if($this->is('index')): ?>current-menu-item current_page_item <?php endif; ?>menu-item-4759"><a href="<?php $this->options->SiteUrl(); ?>" aria-current="page">首页</a></li>
+		    <li class="menu-item menu-item-type-custom menu-item-object-custom <?php if($this->is('index')): ?>current-menu-item current_page_item <?php endif; ?>menu-item-4759"><a href="<?php $this->options->SiteUrl(); ?>" aria-current="page">首页</a></li>
+			<?php $this->widget('Widget_Metas_Category_List')->to($categorys); ?>
+			<?php while($categorys->next()): ?>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom<?php if($this->is('category', $categorys->slug)): ?> current-menu-item<?php endif; ?>">
+			  <a href="<?php $categorys->permalink(); ?>"><?php $categorys->name(); ?></a>
+			</li>
+			<?php endwhile; ?>
             <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
             <?php while($pages->next()): ?>
             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a></li>
