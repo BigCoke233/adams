@@ -1,4 +1,7 @@
 语言：简体中文 | [English](README-en.md)
+
+> The English editon of Adams is preparing now and being done by [KevinZonda](https://github.com/KevinZonda/). You can see it in [this repository](https://github.com/KevinZonda/adams).
+
 # Adams
 > 世界最初的景色
 
