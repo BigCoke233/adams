@@ -1,6 +1,9 @@
 Language: [简体中文](README.md) | English
-# Admas
-> The raw view of the world.
+
+> The English editon of Adams is preparing now and being done by [KevinZonda](https://github.com/KevinZonda/). You can see it in [this repository](https://github.com/KevinZonda/adams).
+
+# Theme Admas
+
 ## Introdution
 This theme is transplanted from WordPress, the author is [Tokinx](https://github.com/Tokinx/Adams).  
 I'm fond of this kind of themes. It's simple, graceful and functional. So I transplanted it to [Typecho](http://typecho.org)  
